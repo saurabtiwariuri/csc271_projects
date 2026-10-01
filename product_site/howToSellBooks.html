@@ -1,0 +1,103 @@
+<!-- Saurab Tiwari -->
+<!-- Friday, October 1st, 2026 -->
+<!-- This page goes more into depth about how to sell your book on Recyclopedia. -->
+<!-- VS Code's built in AI suggestions were used to add comments to the code to help explain what each section of the code does. No AI was used for generating code -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <!--Creating the title that changes what shows up in the browser tab -->
+    <head>
+        <title>How to Sell Your Book!</title>
+    </head>
+    <body>
+        <!-- Creating a header for users to quickly see to identify the page as well as understand its purpose. -->
+        <h1>How to Sell Your Book!</h1>
+        <!-- Adding the Recyclopedia logo to the page to help users identify the site. -->
+        <img src="images/recyclopedia-logo-bw.png" alt="Recyclopedia Logo" width="100" height="100">
+        <hr>
+        <!-- A short description of what this page is about. -->
+        <p> Imagine this, you just finished a semester of classes and you have textbooks you spent your hard earned money on and you no longer need them. So you think "I wish I could sell my book on Recyclopedia to get some money back and help out another student!" Well look no further! Selling your book on Recyclopedia is easy! Just follow the steps below and you'll be on your way to making some extra cash! </p>
+        <hr>
+        <!-- Adding a video to the page to help users understand why college books are so expensive and how Recyclopedia can help reduce the cost of college textbooks. -->
+        <h2>Why College Books are so Expensive</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Cv-60ZA-PnM"></iframe>
+        <p><em>Recylopedia aims to reduce the cost of college textbooks by providing a platform for students to buy and sell used textbooks at a lower price.</em></p>
+        <hr>
+        <!-- Adding a step by step guide to help users understand how to sell their book on Recyclopedia. -->
+        <h2>Steps to Sell Your Book</h2>
+        <p><strong>Step 1: Create an account on Recyclopedia </strong><br>Navigate to the Recyclopedia website and click on the "Create Account" button to register if you have not already!</p>
+        <p><strong>Step 2: List your book for sale by providing details</strong><br>Enter the title, author, ISBN, condition, and price.</p>
+        <p><strong>Step 3: Describe your book</strong><br>Provide a detailed description of your book's condition and any notable features. For example:</p>
+            <!-- Adding a table to help users understand what information they need to provide when listing their book for sale. -->
+            <table>
+            <tr>
+                <th>Information</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td>Algorithms</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>Condition</td>
+                <td>Like new</td>
+            </tr>
+            <tr>
+                <td>Edition</td>
+                <td>10th Edition</td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>$25.99</td>
+            </tr>
+        </table>
+        <p>Also make sure to include pictures and a description of the textbook!</p>
+        <!-- Demonstrating what the completed listing looks like. -->
+        <p><strong>Step 4: Create your listing</strong></p>
+        <p><strong>Title:</strong> Algorithms</p>
+        <p><strong>Author:</strong> John Doe</p>
+        <p><strong>Condition:</strong> Like new</p>
+        <p><strong>Edition:</strong> 10th Edition</p>
+        <p><strong>Price:</strong> $25.99</p>
+        <p><strong>Description:</strong> This textbook is in like new condition, with no markings or damage. It is the 10th edition, message me for more details!</p>
+        <p><strong>Image(s):</strong></p>
+        <img src="images/nicolas-hippert-SVgX47QIUlc-unsplash.jpg" alt="Book Listing Example Image 1" width="200" height="200">
+        <img src="images/kelly-sikkema-FxGfjHNrsnI-unsplash.jpg" alt = "Book Listing Example Image 2" width="200" height="200">
+        <p>This is an example of a book listing on Recyclopedia.</p>
+        <p><strong>Step 5: Respond to inquiries from buyers and arrange the sale!</strong><br>You can communicate with potential buyers through the platform to negotiate the price and arrange the sale!</p>
+        <hr>
+        <!-- Adding a form to the page to help users practice creating a sample listing for their book. -->
+        <h2>Try creating a sample listing!</h2>
+        <form>
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title" required><br>
+            <label for="author">Author:</label><br>
+            <input type="text" id="author" name="author" required><br>
+            <label for="isbn">ISBN:</label><br>
+            <input type="text" id="isbn" name="isbn" required><br>
+            <label for="condition">Condition:</label><br>
+            <input type="radio" id="condition" name="condition" value="like_new" required>
+            <label for="like_new">Like new</label><br>
+            <input type="radio" id="condition" name="condition" value="good"><label for="good">Good</label><br>
+            <input type="radio" id="condition" name="condition" value="fair"><label for="fair">Fair</label><br>
+            <input type="radio" id="condition" name="condition" value="poor"><label for="poor">Poor</label><br>
+            <label for="edition">Edition:</label><br>
+            <input type="text" id="edition" name="edition"><br>
+            <label for="price">Price:</label><br>
+            <input type="text" id="price" name="price" required><br>
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+            <label for="image">Image:</label><br>
+            <input type="file" id="image" name="image"><br><br>
+            <button type="submit">Create Listing</button>
+        </form>
+        <br>
+        <!-- Adding a link to the overview page to help users navigate back to the main page. -->
+         <hr>
+        <a href="welcome.html"> Click here to return to the Overview Page</a>
+    </body>
+</html>
