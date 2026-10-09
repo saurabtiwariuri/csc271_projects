@@ -1,0 +1,74 @@
+/* 
+Saurab Tiwari
+
+October 8th, 2026
+
+This is the main CSS file for the Recyclopedia website. It contains the styles for the entire website.
+*/
+
+/* Setting the font family and background color for the entire website. */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #212020;
+}
+/* Setting the color for the <hr> elements on the website. */
+hr {
+    border: 1px solid #9e9d9d;
+}
+/* Setting the styles for the page titles on the website. */
+#page-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: #D6CFC7;
+}
+/* Setting the font colors for the different elements on the website. */
+p {
+    color: #b5b5b5;
+}
+li {
+    color: #b5b5b5;
+}
+h1 {
+    color: #b5b5b5;
+}
+h2 {
+    color: #b5b5b5;
+}
+h3 {
+    color: #b5b5b5;
+}
+h4 {
+    color: #b5b5b5;
+}
+
+/* Setting the styles for the links on the website. */
+a {
+    color: #b5c7eb;
+    text-decoration: none;
+}
+a:visited {
+    color: #dab1da;
+}
+A:hover {
+    color: #b5c7eb;
+    text-decoration: underline;
+}
+/* Setting the font color for the table on the website. */
+table {
+    color: #b5b5b5;
+}
+/* Setting the styles for the form on the website. */
+form {
+    color: #b5b5b5;
+    background-color: #2b2a2a;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Creating a class for centering text. */
+.indentMiddle {
+    text-align: center;
+}

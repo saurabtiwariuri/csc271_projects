@@ -1,0 +1,35 @@
+<!-- Saurab Tiwari -->
+<!-- October 8th, 2026 -->
+<!-- This is the create account page for Recyclopedia. -->
+<!-- VS Code's built in AI suggestions were used to add comments to the code to help explain what each section of the code does. No AI was used for generating code -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <!--Creating the title that changes what shows up in the browser tab -->
+    <head>
+        <title id = "page-title">Create Account</title>
+        <link href="css/main.css" type="text/css"rel="stylesheet">
+    </head>
+    <body>
+        <!-- Creating a header for users to quickly see to identify the page as well as understand its purpose. -->
+        <h1 id = "page-title">Create Account</h1>
+        <!-- Adding the Recyclopedia logo to the page to help users identify the site. -->
+        <img src="images/recyclopedia-logo-bw.png" alt="Recyclopedia Logo" width="100" height="100">
+        <!-- Creating a form for users to create an account. -->
+        <form>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <label for="profilePicture">Profile Picture:</label><br>
+            <input type="file" id="profilePicture" name="profilePicture"><br><br>
+            <button type="submit">Create Account</button>
+        </form>
+        <br>
+        <!-- Adding a link to the overview page to help users navigate back to the main page. -->
+         <hr>
+        <a href="welcome.html"> Click here to return to the Overview Page</a>
+    </body>
+</html>
