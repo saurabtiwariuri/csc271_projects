@@ -5,33 +5,59 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <!--Creating the title that changes what shows up in the browser tab -->
-    <head>
-        <meta charset="utf-8">
-        <title>How to Sell Your Book!</title>
-        <link href="css/main.css" type="text/css" rel ="stylesheet">
-    </head>
-    <body>
-        <!-- Creating a header for users to quickly see to identify the page as well as understand its purpose. -->
-        <h1 id = "page-title">How to Sell Your Book!</h1>
+<!--Creating the title that changes what shows up in the browser tab -->
+
+<head>
+    <meta charset="utf-8">
+    <title>How to Sell Your Book!</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Creating a header for users to quickly see to identify the page as well as understand its purpose. -->
+    <div class = "header">
         <!-- Adding the Recyclopedia logo to the page to help users identify the site. -->
         <img src="images/recyclopedia-logo-bw.png" alt="Recyclopedia Logo" width="100" height="100">
+        <h1 id="page-title">How to Sell Your Book!</h1>
+        <a style = "padding-right: 20px" href="welcome.html"> Overview</a>
+    </div>
+    <hr>
+    <!-- A short description of what this page is about. -->
+    <p style = "padding:10px;" class="indentMiddle"> Imagine this, you just finished a semester of classes and you have textbooks you spent your
+        hard earned money on and you no longer need them. So you think "I wish I could sell my book on Recyclopedia to
+        get some money back and help out another student!" Well look no further! Selling your book on Recyclopedia is
+        easy! Just follow the steps below and you'll be on your way to making some extra cash! </p>
+    <hr>
+    <div class="sidebar">
+        <h3>Quick Links</h3>
+        <a href="welcome.html">Welcome to Recyclopedia</a>
+        <br>
+        <a href="createAccount.html">Create an account</a>
+        <br>
+        <a href="howToSellBooks.html">How to sell your book</a>
         <hr>
-        <!-- A short description of what this page is about. -->
-        <p class = "indentMiddle"> Imagine this, you just finished a semester of classes and you have textbooks you spent your hard earned money on and you no longer need them. So you think "I wish I could sell my book on Recyclopedia to get some money back and help out another student!" Well look no further! Selling your book on Recyclopedia is easy! Just follow the steps below and you'll be on your way to making some extra cash! </p>
+        <h3>Have any questions?</h3>
+        <a href="mailto:saurab.tiwari@uri.edu">Email Us!</a>
         <hr>
+    </div>
+    <div class="content">
         <!-- Adding a video to the page to help users understand why college books are so expensive and how Recyclopedia can help reduce the cost of college textbooks. -->
         <h2>Why College Books are so Expensive</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Cv-60ZA-PnM"></iframe>
-        <p><em>Recylopedia aims to reduce the cost of college textbooks by providing a platform for students to buy and sell used textbooks at a lower price.</em></p>
-        <hr>
-        <!-- Adding a step by step guide to help users understand how to sell their book on Recyclopedia. -->
-        <h2>Steps to Sell Your Book</h2>
-        <p><strong>Step 1: Create an account on Recyclopedia </strong><br>Navigate to the Recyclopedia website and click on the "Create Account" button to register if you have not already!</p>
-        <p><strong>Step 2: List your book for sale by providing details</strong><br>Enter the title, author, ISBN, condition, and price.</p>
-        <p><strong>Step 3: Describe your book</strong><br>Provide a detailed description of your book's condition and any notable features. For example:</p>
-            <!-- Adding a table to help users understand what information they need to provide when listing their book for sale. -->
-            <table>
+        <p><em>Recylopedia aims to reduce the cost of college textbooks by providing a platform for students to buy and
+                sell used textbooks at a lower price.</em></p>
+    </div>
+    <!-- Adding a step by step guide to help users understand how to sell their book on Recyclopedia. -->
+    <div class="content">
+        <h2 style="color: #4c7250; text-decoration: underline;">Steps to Sell Your Book</h2>
+        <p><strong>Step 1: Create an account on Recyclopedia </strong><br>Navigate to the Recyclopedia website and click
+            on the "Create Account" button to register if you have not already!</p>
+        <p><strong>Step 2: List your book for sale by providing details</strong><br>Enter the title, author, ISBN,
+            condition, and price.</p>
+        <p><strong>Step 3: Describe your book</strong><br>Provide a detailed description of your book's condition and
+            any notable features. For example:</p>
+        <!-- Adding a table to help users understand what information they need to provide when listing their book for sale. -->
+        <table>
             <tr>
                 <th>Information</th>
                 <th>Example</th>
@@ -65,15 +91,20 @@
         <p><strong>Condition:</strong> Like new</p>
         <p><strong>Edition:</strong> 10th Edition</p>
         <p><strong>Price:</strong> $25.99</p>
-        <p><strong>Description:</strong> This textbook is in like new condition, with no markings or damage. It is the 10th edition, message me for more details!</p>
+        <p><strong>Description:</strong> This textbook is in like new condition, with no markings or damage. It is the
+            10th edition, message me for more details!</p>
         <p><strong>Image(s):</strong></p>
-        <img src="images/nicolas-hippert-SVgX47QIUlc-unsplash.jpg" alt="Book Listing Example Image 1" width="200" height="200">
-        <img src="images/kelly-sikkema-FxGfjHNrsnI-unsplash.jpg" alt = "Book Listing Example Image 2" width="200" height="200">
+        <img src="images/nicolas-hippert-SVgX47QIUlc-unsplash.jpg" alt="Book Listing Example Image 1" width="200"
+            height="200">
+        <img src="images/kelly-sikkema-FxGfjHNrsnI-unsplash.jpg" alt="Book Listing Example Image 2" width="200"
+            height="200">
         <p>This is an example of a book listing on Recyclopedia.</p>
-        <p><strong>Step 5: Respond to inquiries from buyers and arrange the sale!</strong><br>You can communicate with potential buyers through the platform to negotiate the price and arrange the sale!</p>
-        <hr>
-        <!-- Adding a form to the page to help users practice creating a sample listing for their book. -->
-        <h2 class = "indentMiddle">Try creating a sample listing!</h2>
+        <p><strong>Step 5: Respond to inquiries from buyers and arrange the sale!</strong><br>You can communicate with
+            potential buyers through the platform to negotiate the price and arrange the sale!</p>
+    </div>
+    <!-- Adding a form to the page to help users practice creating a sample listing for their book. -->
+    <div class="content">
+        <h2 class="indentMiddle" style="color: #4c7250; text-decoration: underline;">Try creating a sample listing!</h2>
         <form>
             <label for="title">Title:</label><br>
             <input type="text" id="title" name="title" required><br>
@@ -83,16 +114,16 @@
             <input type="text" id="isbn" name="isbn" required><br>
             <label for="condition">Condition:</label><br>
             <input type="radio" id="condition" name="condition" value="like_new" required>
-            <label for="condition">Like new</label><br>
+            <label for="condition" style="display: inline;">Like new</label><br>
             <input type="radio" id="good" name="condition" value="good">
-            <label for="good">Good</label><br>
+            <label for="good" style="display: inline;">Good</label><br>
             <input type="radio" id="fair" name="condition" value="fair">
-            <label for="fair">Fair</label><br>
+            <label for="fair" style="display: inline;">Fair</label><br>
             <input type="radio" id="poor" name="condition" value="poor">
-            <label for="poor">Poor</label><br>
-            <label for="edition">Edition:</label><br>
-            <input type="text" id="edition" name="edition"><br>
-            <label for="price">Price:</label><br>
+            <label for="poor" style="display: inline;">Poor</label><br><br>
+            <label for="edition" style="display: inline;">Edition:</label><br>
+            <input type="text" id="edition" name="edition"><br><br>
+            <label for="price" style="display: inline;">Price:</label><br>
             <input type="text" id="price" name="price" required><br>
             <label for="description">Description:</label><br>
             <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
@@ -100,9 +131,8 @@
             <input type="file" id="image" name="image"><br><br>
             <button type="submit">Create Listing</button>
         </form>
-        <br>
-        <!-- Adding a link to the overview page to help users navigate back to the main page. -->
-         <hr>
-        <a href="welcome.html"> Click here to return to the Overview Page</a>
-    </body>
+    </div>
+    <br>
+</body>
+
 </html>

@@ -5,46 +5,83 @@
 
 <!DOCTYPE html>
 <html lang="en">
-       <head>
-            <!-- This was added to fix the error "The character encoding was not declared" on the validator website. I learned how to fix this from this website "https://rocketvalidator.com/html-validation/the-character-encoding-was-not-declared-proceeding-using-windows-1252" -->
-            <meta charset="utf-8">
-           <!-- Title for users to see on the browser tab. -->
-           <title>Welcome to Recyclopedia!</title>
-           <link href="css/main.css" type="text/css" rel="stylesheet">
 
-       </head>
-       <body>
-           <!-- Creating a header for users to quickly see to identify the page as well as understand its purpose. -->
-           <h1 id = "page-title">Recyclopedia, Textbooks made Affordable!</h1>
-           <img src="images/recyclopedia-logo-bw.png" alt="Recyclopedia Logo" width="100" height="100">
-           <hr>
-           <!-- A short description of what Recyclopedia is. -->
-           <p class = "indentMiddle">Hey there! Welcome to <em> <strong>Recyclopedia</strong></em>, your go-to website for finding cheap textbooks! <br> Whether you're here to search for a specific book or to sell your own, we've got you covered! </p>
-           <hr>
-           <!-- Providing information on how the site works. -->
-           <h2>How it Works</h2>
-           <!-- Short tutorial on how users can browse/purchase books.  -->
-           <h3><em>Purchasing Books</em></h3>
-           <ol> <li>Create an account </li> <li>Browse our listings </li> <li>Search for books by title, author, or ISBN </li> <li>Filter results by price, condition, and location </li> <li>Contact sellers directly to arrange a purchase! </li> </ol>
-           <!-- Short tutorial on how users can sell books.  -->
-           <h3><em>Selling Books</em></h3>
-           <ol> <li>Create an account </li> <li>List your book for sale by providing details such as title, author, ISBN, condition, and price </li> <li>Upload photos of your book for buyers to view</li> <li>Respond to inquiries from buyers and arrange the sale!</li> </ol>
-           <a href="howToSellBooks.html">Click here to learn more about selling your book!</a>
-           <hr>
-           <!-- To help users navigate to the create account page. -->
-           <h3> Ready to get started?</h3>
-           <p> Click the button below to create an account and join our community!</p>
-           <!-- Link to the create account page (links to the current page as the create account page has not been made yet, will be updated later). -->
-           <a href="createAccount.html"> Create an account</a>
-           <hr>
-           <!-- Further information about Recyclopedia. -->
-           <h3> Want to learn more about Recyclopedia?</h3>
-           <p> Click the link below to watch an educational video!</p>
-           <!-- Link to the educational video on Youtube.com (links to the Youtube home page as the video has not been made yet, will be updated later).-->
-           <a href="https://www.youtube.com">Click here to watch!</a>
-           <hr>
-           <!-- Contact information for users, provides users a link that starts an email to the support team (aka me). -->
-           <h4><em>Have any questions? Contact us!</em><br><a href="mailto:saurab.tiwari@uri.edu">Email Us!</a></h4>
-       </body>
-       <!-- End of the code and page. -->
+<head>
+    <!-- This was added to fix the error "The character encoding was not declared" on the validator website. I learned how to fix this from this website "https://rocketvalidator.com/html-validation/the-character-encoding-was-not-declared-proceeding-using-windows-1252" -->
+    <meta charset="utf-8">
+    <!-- Title for users to see on the browser tab. -->
+    <title>Welcome to Recyclopedia!</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Creating a header for users to quickly see to identify the page as well as understand its purpose. -->
+
+    <div class="header">
+        <img src="images/recyclopedia-logo-bw.png" alt="Recyclopedia Logo" width="100" height="100">
+        <h1>Recyclopedia: Textbooks made Affordable</h1>
+        <a href="createAccount.html"> Account Creation</a>
+        <a class="active" href="welcome.html" class="active"> Overview</a>
+    </div>
+    <hr>
+    <div class="sidebar">
+        <h3>Quick Links</h3>
+        <a href="welcome.html">Welcome to Recyclopedia</a>
+        <br>
+        <a href="createAccount.html">Create an account</a>
+        <br>
+        <a href="howToSellBooks.html">How to sell your book</a>
+        <hr>
+        <h3>Have any questions?</h3>
+        <a href="mailto:saurab.tiwari@uri.edu">Email Us!</a>
+        <hr>
+    </div>
+    <div class="content">
+        <!-- A short description of what Recyclopedia is. -->
+        <p class="indentMiddle">Hey there! Welcome to <em> <strong>Recyclopedia</strong></em>, your go-to website for
+            finding cheap textbooks! <br> Whether you're here to search for a specific book or to sell your own, we've
+            got you covered! </p>
+        <hr>
+        <!-- Providing information on how the site works. -->
+        <h2>How it Works</h2>
+        <!-- Short tutorial on how users can browse/purchase books.  -->
+        <h3><em>Purchasing Books</em></h3>
+        <ol>
+            <li>Create an account </li>
+            <li>Browse our listings </li>
+            <li>Search for books by title, author, or ISBN </li>
+            <li>Filter results by price, condition, and location </li>
+            <li>Contact sellers directly to arrange a purchase! </li>
+        </ol>
+        <!-- Short tutorial on how users can sell books.  -->
+        <h3><em>Selling Books</em></h3>
+        <ol>
+            <li>Create an account </li>
+            <li>List your book for sale by providing details such as title, author, ISBN, condition, and price </li>
+            <li>Upload photos of your book for buyers to view</li>
+            <li>Respond to inquiries from buyers and arrange the sale!</li>
+        </ol>
+        <a href="howToSellBooks.html">Click here to learn more about selling your book!</a>
+        <hr>
+    </div>
+    <div class="content">
+        <!-- To help users navigate to the create account page. -->
+        <h3> Ready to get started?</h3>
+        <p> Click the button below to create an account and join our community!</p>
+        <!-- Link to the create account page (links to the current page as the create account page has not been made yet, will be updated later). -->
+        <a href="createAccount.html"> Create an account</a>
+        <hr>
+    </div>
+    <div class="content">
+        <!-- Further information about Recyclopedia. -->
+        <h3> Want to learn more about Recyclopedia?</h3>
+        <p> Click the link below to watch an educational video!</p>
+        <!-- Link to the educational video on Youtube.com (links to the Youtube home page as the video has not been made yet, will be updated later).-->
+        <a href="https://www.youtube.com">Click here to watch!</a>
+    </div>
+    <!-- Contact information for users, provides users a link that starts an email to the support team (aka me). -->
+</body>
+<!-- End of the code and page. -->
+
 </html>

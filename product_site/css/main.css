@@ -1,44 +1,54 @@
 /* 
 Saurab Tiwari
 
-October 8th, 2026
+October 15th, 2026
 
 This is the main CSS file for the Recyclopedia website. It contains the styles for the entire website.
 */
 
+/* VS Code's built in AI was used to help create comments, it was not used to write the code itself or for anything other than comments. */
+
 /* Setting the font family and background color for the entire website. */
 body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: Helvetica, Arial, sans-serif;
     background-color: #212020;
 }
+
 /* Setting the color for the <hr> elements on the website. */
 hr {
     border: 1px solid #9e9d9d;
 }
+
 /* Setting the styles for the page titles on the website. */
 #page-title {
     font-size: 24px;
     font-weight: bold;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Helvetica, Arial, sans-serif;
     text-align: center;
     color: #D6CFC7;
 }
+
 /* Setting the font colors for the different elements on the website. */
 p {
     color: #b5b5b5;
 }
+
 li {
     color: #b5b5b5;
 }
+
 h1 {
     color: #b5b5b5;
 }
+
 h2 {
     color: #b5b5b5;
 }
+
 h3 {
     color: #b5b5b5;
 }
+
 h4 {
     color: #b5b5b5;
 }
@@ -48,27 +58,209 @@ a {
     color: #b5c7eb;
     text-decoration: none;
 }
+
 a:visited {
     color: #dab1da;
 }
+
 A:hover {
     color: #b5c7eb;
     text-decoration: underline;
 }
+
 /* Setting the font color for the table on the website. */
 table {
     color: #b5b5b5;
 }
+
 /* Setting the styles for the form on the website. */
 form {
     color: #b5b5b5;
-    background-color: #2b2a2a;
+    background-color: #2d2d2d;
     border-radius: 8px;
     padding: 10px;
     text-align: left;
 }
 
+label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    background-color: #2a2a2a;
+    color: #DDD8D0;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    background-color: #2a2a2a;
+    color: #DDD8D0;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    background-color: #2a2a2a;
+    color: #DDD8D0;
+}
+
+input[type="file"] {
+    width: 100%;
+    margin-top: 5px;
+    color: #DDD8D0;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    background-color: #2a2a2a;
+    color: #DDD8D0;
+}
+
+
+button {
+    display: block;
+    margin: 25px auto 0;
+    padding: 10px 24px;
+    border: #202020;
+    border-radius: 6px;
+    background-color: #6FBF73;
+    color: #202020;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8ad68e;
+}
+
 /* Creating a class for centering text. */
 .indentMiddle {
     text-align: center;
+}
+
+/* Creating a header class for the website that will store the name of the site, the logo, and navigation links. */
+.header {
+    overflow: auto;
+    background-color: #2b2a2a;
+    padding: 0px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+/* Styling links in the header. */
+.header a {
+    float: right;
+    color: white;
+    font-family: Times New Roman, Times, serif;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 20;
+
+}
+
+/* Creating a class for the image in the header. */
+.header img {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+/* Creating a class for the active link in the header. Basically the link of the site they are on will be green. */
+.header a.active {
+    color: #6FBF73;
+}
+
+.header a:hover {
+    color: #6f9fbf;
+    text-decoration: underline;
+}
+
+/* Styling h1 element in the header. */
+.header h1 {
+    font-family: Times New Roman, Times, serif;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+/* Creating a class for the content of the website. This will be used to style the main content of the website. */
+.content {
+    padding: 20px;
+    float: left;
+    width: 75%;
+    margin: 10px;
+    background-color: #3a3a3a;
+    border-radius: 10px;
+
+}
+
+/* Creating a class for the images on the website. This will be used to style the images on the website. */
+img {
+    float: center;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Creating a class for the footer of the website. This will be used to style the footer of the website. */
+.footer {
+    clear: both;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+/* Creating a sidebar class to help with navigation through the website and contacting me */
+.sidebar {
+    float: right;
+    width: 20%;
+    padding: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: #3a3a3a;
+    color: #DDD8D0;
+    border-radius: 10px;
+}
+
+
+/* Make the web design responsive to different screen sizes. */
+@media only screen and (max-width: 600px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .content {
+        width: 100%;
+        font-size: 20px;
+
+    }
+
+    .sidebar {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
 }
