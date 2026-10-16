@@ -213,8 +213,6 @@ button:hover {
     margin: 10px;
     background-color: #3a3a3a;
     border-radius: 10px;
-    box-sizing: border-box;
-
 }
 
 /* Creating a class for the images on the website. This will be used to style the images on the website. */
