@@ -129,7 +129,7 @@ input[type="file"] {
     color: #DDD8D0;
 }
 
-textarea{
+textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -213,6 +213,7 @@ button:hover {
     margin: 10px;
     background-color: #3a3a3a;
     border-radius: 10px;
+    box-sizing: border-box;
 
 }
 
@@ -262,5 +263,6 @@ img {
         float: none;
         width: 100%;
         margin: 0;
+        box-sizing: border-box;
     }
 }
