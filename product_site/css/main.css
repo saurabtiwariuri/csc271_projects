@@ -179,8 +179,6 @@ button:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 15px;
     padding: 5px;
-    margin-bottom: 20;
-
 }
 
 /* Creating a class for the image in the header. */
@@ -220,7 +218,7 @@ button:hover {
 
 /* Creating a class for the images on the website. This will be used to style the images on the website. */
 img {
-    float: center;
+    float: none;
     margin: 5px;
     max-width: 100%;
     height: auto;
