@@ -8,6 +8,8 @@ This is the main CSS file for the Recyclopedia website. It contains the styles f
 
 /* VS Code's built in AI was used to help create comments, it was not used to write the code itself or for anything other than comments. */
 
+/* I learned how to use sidebars and input styling from these websites: https://www.w3schools.com/w3css/w3css_sidebar.asp and https://www.w3schools.com/css/css_form_inputs.asp */
+
 /* Setting the font family and background color for the entire website. */
 body {
     font-family: Helvetica, Arial, sans-serif;
