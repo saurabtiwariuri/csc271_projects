@@ -176,7 +176,7 @@ button:hover {
 .header a {
     float: right;
     color: white;
-    font-family: Times New Roman, Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 15px;
     padding: 5px;
     margin-bottom: 20;
@@ -202,7 +202,7 @@ button:hover {
 
 /* Styling h1 element in the header. */
 .header h1 {
-    font-family: Times New Roman, Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 25px;
     margin-top: 50px;
 }
