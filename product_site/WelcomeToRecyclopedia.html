@@ -10,9 +10,24 @@
     <!-- This was added to fix the error "The character encoding was not declared" on the validator website. I learned how to fix this from this website "https://rocketvalidator.com/html-validation/the-character-encoding-was-not-declared-proceeding-using-windows-1252" -->
     <meta charset="utf-8">
     <!-- Title for users to see on the browser tab. -->
-    <title>Welcome to Recyclopedia!</title>
-    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <title>Recyclopedia: Cheap Textbooks</title>
+    <meta name="description" content="An overview of Recyclopedia, a website designed to help students buy and sell textbooks for cheap." />
+    <meta name="keywords" content="cheap, textbooks, purchase, sell" />
+    <meta property="og:title" content="Recyclopedia: Cheap Textbooks">
+    <meta property="og:description" content="Explore Recyclopedia and Learn How it Works.">
+    <meta property="og:image" content="images/recyclopedia-owl.png">
+    <meta property="og:url" content="https://saurabtiwari.rhody.dev/csc271_projects/product_site/WelcomeToRecyclopedia.html">
 
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WYR5KXKFZE"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WYR5KXKFZE');
+    </script>
 </head>
 
 <body>
@@ -22,12 +37,12 @@
         <img src="images/recyclopedia-logo-bw.png" alt="Recyclopedia Logo" width="100" height="100">
         <h1>Recyclopedia: Textbooks made Affordable</h1>
         <a href="createAccount.html"> Account Creation</a>
-        <a class="active" href="welcome.html" class="active"> Overview</a>
+        <a class="active" href="WelcomeToRecyclopedia.html" class="active"> Overview</a>
     </div>
     <hr>
     <div class="sidebar">
-        <h3>Quick Links</h3>
-        <a href="welcome.html">Welcome to Recyclopedia</a>
+        <h2>Quick Links</h2>
+        <a href="WelcomeToRecyclopedia.html">Welcome to Recyclopedia</a>
         <br>
         <a href="createAccount.html">Create an account</a>
         <br>
@@ -62,15 +77,7 @@
             <li>Upload photos of your book for buyers to view</li>
             <li>Respond to inquiries from buyers and arrange the sale!</li>
         </ol>
-        <a href="howToSellBooks.html">Click here to learn more about selling your book!</a>
-        <hr>
-    </div>
-    <div class="content">
-        <!-- To help users navigate to the create account page. -->
-        <h3> Ready to get started?</h3>
-        <p> Click the button below to create an account and join our community!</p>
-        <!-- Link to the create account page (links to the current page as the create account page has not been made yet, will be updated later). -->
-        <a href="createAccount.html"> Create an account</a>
+        <a href="howToSellBooks.html">Learn more about selling your book!</a>
         <hr>
     </div>
     <div class="content">
@@ -78,9 +85,9 @@
         <h3> Want to learn more about Recyclopedia?</h3>
         <p> Click the link below to watch an educational video!</p>
         <!-- Link to the educational video on Youtube.com (links to the Youtube home page as the video has not been made yet, will be updated later).-->
-        <a href="https://www.youtube.com">Click here to watch!</a>
+        <a href="https://www.youtube.com">Watch an educational video about Recyclopedia!</a>
+        <hr>
     </div>
-    <!-- Contact information for users, provides users a link that starts an email to the support team (aka me). -->
 </body>
 <!-- End of the code and page. -->
 
