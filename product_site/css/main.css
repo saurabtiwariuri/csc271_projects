@@ -243,7 +243,7 @@ img {
 }
 
 
-/* Make the web design responsive to different screen sizes. */
+/* Make the web design responsive to different screen sizes with the max width being 1300px. */
 @media only screen and (max-width: 1300px) {
     .header a {
         float: none;
@@ -258,7 +258,6 @@ img {
         padding: 15px;
         box-sizing: border-box;
     }
-
     .sidebar {
         float: none;
         width: auto;
