@@ -2,6 +2,21 @@
 // Friday, October 31st, 2026
 // This file contains the Javascript used in the checkoutExample.html page.
 
+// Friday, November 11th, 2026
+// Added two functions that reduce repetition and make the code more readable.
+
+
+// Function to round a number to two decimal places.
+function roundToTwoDecimals(number) {
+    var roundedNumber = Number(number.toFixed(2));
+    return roundedNumber;
+}
+// Function to calculate the total price including tax.
+function calculateTotal(price, taxRate) {
+    let tax = roundToTwoDecimals(price * taxRate);
+    return price + tax;
+}
+
 // Creating variables / setting them.
 let bookTitle = "Algorithms";
 let sellerName = "Kiren Twinkleburger";
@@ -10,8 +25,8 @@ let price = 25.99;
 let taxRate = 0.07;
 
 // Calculating tax and total.
-let tax = price * taxRate;
-let total = price + tax;
+let tax = roundToTwoDecimals(price * taxRate);
+let total = calculateTotal(price, taxRate);
 let msrp = 35.99;
 
 
@@ -48,5 +63,3 @@ else if(total < msrp - msrp * 0.21 && total > msrp - msrp * 0.31){
 else{
     dealMessageElement.innerHTML = "You'll save over 30% off the MSRP price!"
 }
-
-

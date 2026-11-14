@@ -181,6 +181,16 @@ button:hover {
     padding: 5px;
 }
 
+.header p{
+    float: center;
+    color: #654332;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    font-style: italic;
+
+}
+
 /* Creating a class for the image in the header. */
 .header img {
     float: left;
