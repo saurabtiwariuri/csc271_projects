@@ -10,6 +10,7 @@ function createHelloMessage() {
         "Good to see you! Let's save on Textbooks!"
     ];
     let randomNumber = Math.floor(Math.random() * messages.length);
+    
     let welcomeElement = document.querySelector("#welcome-message");
     welcomeElement.textContent = messages[randomNumber];
 }
