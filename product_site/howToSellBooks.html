@@ -113,11 +113,13 @@
     <!-- Adding a form to the page to help users practice creating a sample listing for their book. -->
     <div class="content">
         <h2 class="indentMiddle" style="color: #4c7250; text-decoration: underline;">Try creating a sample listing!</h2>
-        <form>
+        <form id = "listingForm" novalidate>
             <label for="title">Title:</label><br>
             <input type="text" id="title" name="title" required><br>
+            <p id="titleComment"></p>
             <label for="author">Author:</label><br>
             <input type="text" id="author" name="author" required><br>
+            <p id="authorComment"></p>
             <label for="isbn">ISBN:</label><br>
             <input type="text" id="isbn" name="isbn" required><br>
             <label for="condition">Condition:</label><br>
@@ -133,14 +135,17 @@
             <input type="text" id="edition" name="edition"><br><br>
             <label for="price" style="display: inline;">Price:</label><br>
             <input type="text" id="price" name="price" required><br>
+            <p id="priceComment"></p>
             <label for="description">Description:</label><br>
             <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
             <label for="image">Image:</label><br>
             <input type="file" id="image" name="image"><br><br>
+            <p id="formComment"></p>
             <button type="submit">Create Listing</button>
         </form>
     </div>
     <br>
+    <script src="js/validateForm.js"></script>
 </body>
 
 </html>
